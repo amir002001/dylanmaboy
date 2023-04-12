@@ -6,5 +6,5 @@ import (
 )
  
 func Handler(w http.ResponseWriter, r *http.Request) {
-  fmt.Fprintf(w, "<h1>Hello from Go!</h1>")
+  fmt.Fprintf(w, "<a href='https://store.steampowered.com/account/ackgift/1414230BF24B4657?redeemer='https://store.steampowered.com/account/ackgift/1414230BF24B4657?redeemer='>happy birthday bud</a>")
 }
